@@ -1,0 +1,15 @@
+# Duración de cada aviso en ticks (20 ticks = 1 segundo)
+duracion-ticks: 80
+# Máximo de avisos a la vez en pantalla
+max-lineas: 4
+# Mitad del ancho de la GUI en píxeles menos el margen.
+# GUI "Auto" en 1080p = 480 de ancho -> 240 de mitad -> 234 con margen.
+# Cada jugador puede ajustar el suyo con /kf ajuste <número>
+mitad-ancho-gui: 234
+# Si true, solo se muestra a quien haya cargado el resource pack del servidor
+# (o a quien haga /kf on para forzarlo, por ejemplo con el pack instalado en local).
+solo-con-resourcepack: true
+# Quitar el mensaje de muerte normal del chat
+ocultar-mensaje-chat: false
+# Sonido de recompensa al que mata
+sonido-al-matar: true

@@ -1,0 +1,14 @@
+name: KillFeed
+version: 1.0.0
+main: es.normsafio.killfeed.KillFeedPlugin
+api-version: '1.21'
+description: Kill feed animado arriba a la derecha (requiere Normsafio TexturePack v14)
+authors: [Normsafio]
+commands:
+  killfeed:
+    description: Ajustes y pruebas del kill feed
+    aliases: [kf]
+    usage: /<command> <on|off|ajuste|test|push|reload>
+permissions:
+  killfeed.admin:
+    default: op

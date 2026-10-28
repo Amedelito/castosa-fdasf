@@ -1,0 +1,14 @@
+KILLFEED para Paper 1.21.1 (Java 21)
+
+COMPILAR:   mvn clean package      ->  target/KillFeed.jar  -> carpeta plugins/
+PACK:       usa Normsafio_TexturePack_v14.zip (server.properties resource-pack o el que ya uses)
+
+COMANDOS
+/kf on | off            activar/desactivar para ti (on fuerza si tienes el pack instalado en local)
+/kf ajuste <numero>     distancia al borde (defecto 234; sube para pegarlo mas al borde)
+/kf test <tipo>         caida espada arco tnt radiacion fuego lava agua vacio matas tematan   (op)
+/kf push <icono> <texto con &colores>   aviso manual (op). Para tu radiacion de Vidas:
+   /kf push radiacion &cPepe &fha muerto por radiacion
+/kf reload
+
+Si el plugin Vidas pone "radia" en su mensaje de muerte, se detecta solo el icono de radiacion.
